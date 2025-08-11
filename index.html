@@ -1,0 +1,180 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="MAGGI">
+    <meta name="description" content="ANDHRA CAFFEE">
+    <title>Andhra cafee</title>
+  <style>
+    body{
+        margin:0px;
+        padding:0px;
+    }
+    header{
+        
+        font-size:20px;
+        font-weight: bold;
+        text-align: center;
+        color:white;
+        
+        background-color: rgb(124, 63, 4);
+        nav {
+    text-align: center; /* center the whole UL inside nav */
+}
+
+nav ul {
+    list-style-position: inside; /* move dots inside so they're closer to text */
+    padding: 0;                   /* remove browser default padding */
+    margin: 0;                    /* remove browser default margin */
+    display: inline-block;        /* allow centering */
+    text-align: left;             /* keep list items aligned under each other */
+}
+
+nav li {
+    margin: 5px 0; /* spacing between items */
+}
+
+    }
+     .main1{
+             font-size: 15px;
+             font-weight: bold;
+             text-align: center;
+             color:white;
+             background-color: rgb(124, 63, 4);
+     }
+     a{
+      color:white;
+     }
+     a:hover{
+        color:chartreuse;
+     }
+
+    
+    table {
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 auto; 
+    color:white;         /* centers the table */
+    border-collapse: collapse;}
+    footer{
+
+         margin:0px;
+         text-align: center;
+         color:white;
+         background-color: rgb(124, 63, 4);
+    }
+
+  </style>
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to The Andhra caffee</h1>
+        <nav>
+            <ul style="color:rgb(239, 237, 241)">
+                <li>
+                    <a href="#about">About <abbr title="The Little Taco Shop">LTS</abbr></a>
+                </li>
+                <li>
+                    <a href="#menu">Our Menu</a>
+                </li>
+                <li>
+                    <a href="hours.html">Store Hours</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact Us</a>
+                </li>
+            </ul>
+        </nav>
+
+        <figure>
+            <img src="cofee2.jpeg" alt="Tacos and a Drink" title="We love tacos!" width="400"
+                height="267">
+            <figcaption>
+                sip the cofeeec
+            </figcaption>
+        </figure>
+    </header>
+    <hr>
+    <main class="main1">
+        <article id="about">
+            <h2>About <abbr title="andra cafee">AC</abbr></h2>
+            <p>
+                <abbr title="The andra cafee">AC</abbr> was founded in <time datetime="2025">2025</time>. Our shop
+                was built from a <strong>love of cofee</strong. We hope our shop adds a unique and interesting
+                place to our little town.
+            </p>
+            <aside>
+                <h3>sip the cofee with love </h3>
+                <details>
+                    <summary>love your cofee </summary>
+                    <p>
+                        each and every sip you are faleen love with the sip of cofee.
+                    </p>
+                </details>
+            </aside>
+        </article>
+        <hr>
+        <article id="menu" class="main2">
+           <h2>Our Menu</h2>
+         <table>
+  <caption>Our coffee</caption>
+  <thead>
+    <tr>
+      <th></th>
+      <th scope="col"><abbr title="Quantity">Qty</abbr></th>
+      <th scope="col">Price</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row" rowspan="3">Cappuccino</th>
+      <td>1</td>
+      <td>99 RS</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>199 RS</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>299 RS</td>
+    </tr>
+
+    <tr>
+      <th scope="row" rowspan="3">Black coffee</th>
+      <td>1</td>
+      <td>89 RS</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>150 RS</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>250 RS</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <td colspan="3">Specials:<br> Cappuccino — <br>1: 99 RS,<br> 2: 190 RS,<br> 3: 400 RS</td>
+    </tr>
+  </tfoot>
+</table>
+
+            <br>
+            <p>
+                <a href="#">Back To Top</a>
+            </p>
+        </article>
+    </main>
+    <hr>
+    <footer>
+        <p>Copyright &copy; The andhra cafee</p>
+    </footer>
+</body>
+
+</html>
